@@ -1,3 +1,4 @@
+//functions to validate input details.//
 var nameError = document.getElementById('name-error');
 var emailError = document.getElementById('email-error');
 var phoneError = document.getElementById('phone-error');
@@ -65,7 +66,7 @@ function validateAddress(){
     addressError.innerHTML = '<i class="fas fa-check-circle"></i>';
     return true;
 }
-
+//alert message & confirmation that all inputs are valid//
 function alertMessage() {
     var nameValid = validateName();
     var emailValid = validateEmail();
